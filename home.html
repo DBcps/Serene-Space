@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Serene Space</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    #header {
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+
+    #logo {
+      float: left;
+    }
+
+    #nav {
+      float: right;
+    }
+
+    #nav a {
+      color: #333;
+      text-decoration: none;
+      margin-left: 10px;
+    }
+
+    #content {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    #input-box {
+      margin-top: 20px;
+      display: inline-block;
+      width: 200px;
+    }
+
+    #contact-details {
+      margin-top: 10px;
+    }
+
+    #contact-details p {
+      margin: 10px 0;
+    }
+
+    #submit-button {
+      display: inline-block;
+      margin-left: 10px;
+    }
+
+    .emoji-button {
+      cursor: pointer;
+      font-size: 24px;
+      margin: 5px;
+      padding: 5px;
+      border: none;
+      background: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="header">
+    <div id="logo">
+      <img src="https://cdn.pixabay.com/photo/2020/10/16/14/40/among-us-5659730_1280.png" alt="Logo" width="50"
+        height="50">
+    </div>
+    <div id="nav">
+      <a href="home.html">Home</a>
+      <a href="#">Confessions</a>
+      <a href="resources.html">Resources</a>
+      <a href="#">Journal</a>
+      <a href="#">Profile</a>
+    </div>
+  </div>
+
+  <div id="content">
+    <h1>Hi, how are you feeling now?</h1>
+    <div id="emojis">
+      <button class="emoji-button" type="button">😊</button>
+      <button class="emoji-button" type="button">😢</button>
+      <button class="emoji-button" type="button">😡</button>
+      <button class="emoji-button" type="button">😴</button>
+      <button class="emoji-button" type="button">😃</button>
+      <button class="emoji-button" type="button">🔥</button>
+    </div>
+    <form>
+      <input type="text" id="input-box" placeholder="Enter your message">
+      <button type="submit" id="submit-button">Submit</button>
+    </form>
+    <div id="contact-info">
+      <p>For more details, contact us at help@serenespace.com</p>
+    </div>
+  </div>
+</body>
+
+</html>
